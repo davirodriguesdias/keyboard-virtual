@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#view {
+    margin: auto;
+    height: 100px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+#keyboard {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    background-color: rgb(221, 218, 218);
+    border-spacing: 5px;
+    
+}
+
+td {
+    background-color: white;
+    border: 1px solid black;
+    width: 35px;
+    height: 50px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.428);
+    ;
+}
+
+td:hover {
+    background-color: rgb(226, 222, 222);
+}

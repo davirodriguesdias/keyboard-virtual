@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual keyboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="view">
+            
+    </div>
+
+    <div id="keyboard">
+
+        
+
+       <table>
+        <tr>
+            <td onclick="digitar('q')">q</td>
+            <td onclick="digitar('w')">w</td>
+            <td onclick="digitar('e')">e</td>
+            <td onclick="digitar('r')">r</td>
+            <td onclick="digitar('t')">t</td>
+            <td onclick="digitar('y')">y</td>
+            <td onclick="digitar('u')">u</td>
+            <td onclick="digitar('i')">i</td>
+            <td onclick="digitar('o')">o</td>
+            <td onclick="digitar('p')">p</td>
+        </tr>
+
+        <tr id="row1">
+            <td onclick="digitar('a')">a</td>
+            <td onclick="digitar('s')">s</td>
+            <td onclick="digitar('d')">d</td>
+            <td onclick="digitar('f')">f</td>
+            <td onclick="digitar('g')">g</td>
+            <td onclick="digitar('h')">h</td>
+            <td onclick="digitar('j')">j</td>
+            <td onclick="digitar('k')">k</td>
+            <td onclick="digitar('l')">l</td>
+        </tr>
+
+        <tr>
+            <td>^</td>
+            <td onclick="digitar('z')">z</td>
+            <td onclick="digitar('x')">x</td>
+            <td onclick="digitar('c')">c</td>
+            <td onclick="digitar('v')">v</td>
+            <td onclick="digitar('b')">b</td>
+            <td onclick="digitar('n')">n</td>
+            <td onclick="digitar('m')">m</td>
+            <td onclick="back()">&lt;</td>
+        </tr>
+
+        <tr>
+            <td>123</td>
+            <td onclick="digitar(',')">,</td>
+            <td onclick="space()" colspan="4"></td>
+            <td onclick="digitar('.')">.</td>
+            <td onclick="bk()">&lt;|</td>
+        </tr>
+       </table> 
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
