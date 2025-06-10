@@ -21,3 +21,9 @@ function back() {
 function bk() {
     tela.innerHTML += '<br>'
 }
+
+function on() {
+     var div = document.querySelector('div#circle')
+
+     div.style.left = '0px'
+}

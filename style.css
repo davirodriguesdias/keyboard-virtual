@@ -38,9 +38,39 @@ td {
     text-align: center;
     border-radius: 6px;
     box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.428);
-    ;
 }
 
 td:hover {
     background-color: rgb(226, 222, 222);
 }
+
+#body {
+    position: relative;
+    height: 20px;
+    width: 40px;
+    background-color: rgb(195, 191, 191);
+    border-radius: 10px;
+    border: 2px solid rgb(120, 117, 117);
+}
+
+#circle {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    animation: on 0.5s linear;
+    
+}
+
+/* @keyframes on {
+    from {
+        right: 20px;
+    }
+
+    to {
+        right: 0;
+    }
+
+    
+} */

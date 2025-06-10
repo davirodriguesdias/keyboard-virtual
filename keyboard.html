@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Virtual keyboard</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
     <div id="view">
-            
+        
     </div>
 
     <div id="keyboard">
@@ -31,7 +32,8 @@
             <td onclick="digitar('p')">p</td>
         </tr>
 
-        <tr id="row1">
+        <tr>
+
             <td onclick="digitar('a')">a</td>
             <td onclick="digitar('s')">s</td>
             <td onclick="digitar('d')">d</td>
@@ -52,7 +54,7 @@
             <td onclick="digitar('b')">b</td>
             <td onclick="digitar('n')">n</td>
             <td onclick="digitar('m')">m</td>
-            <td onclick="back()">&lt;</td>
+            <td onclick="back()"><img src="backspace_20dp_000000_FILL0_wght400_GRAD0_opsz20.png" alt="backspace"></td>
         </tr>
 
         <tr>
@@ -60,9 +62,14 @@
             <td onclick="digitar(',')">,</td>
             <td onclick="space()" colspan="4"></td>
             <td onclick="digitar('.')">.</td>
-            <td onclick="bk()">&lt;|</td>
+            <td onclick="bk()"><img src="subdirectory_arrow_left_20dp_000000_FILL0_wght400_GRAD0_opsz20.png" alt="enter"></td>
         </tr>
        </table> 
+    </div>
+
+    <div id="body">
+        <div onclick="on()" id="circle">
+        </div>
     </div>
 
     <script src="script.js"></script>
